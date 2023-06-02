@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Profile Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #24292e;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .profile {
+      display: flex;
+      padding: 20px;
+    }
+
+    .profile-image {
+      flex: 0 0 200px;
+      margin-right: 20px;
+    }
+
+    .profile-image img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .profile-details {
+      flex: 1;
+    }
+
+    .profile-details h2 {
+      font-size: 24px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .profile-details p {
+      font-size: 16px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .profile-details .btn {
+      display: inline-block;
+      background-color: #24292e;
+      color: #fff;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .profile-repos {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f6f8fa;
+    }
+
+    .profile-repos h2 {
+      font-size: 20px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .repo {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+
+    .repo:last-child {
+      border-bottom: none;
+    }
+
+    .repo h3 {
+      font-size: 18px;
+      margin: 0;
+      margin-bottom: 5px;
+    }
+
+    .repo p {
+      font-size: 16px;
+      margin: 0;
+      margin-bottom: 5px;
+    }
+
+    .repo .lang {
+      display: inline-block;
+      font-size: 14px;
+      background-color: #f1f8ff;
+      color: #0366d6;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>GitHub Profile</h1>
+  </header>
+  <div class="profile">
+    <div class="profile-image">
+      <img src="profile-image.jpg" alt="Profile Image">
+    </div>
+    <div class="profile-details">
+      <h2>John Doe</h2>
+      <p>john.doe@example.com</p>
+      <p>Joined: January 1, 2022</p>
+      <a href="#" class="btn">Follow</a>
+    </div>
+  </div>
+  <div class="profile-repos">
+    <h2>Repositories</h2>
+    <div class="repo">
+      <h3>Repository Name 1</h3>
+      <p>Repository description goes here.</p>
+      <p class="lang">JavaScript</p>
+    </div>
+    <div class="repo">
+      <h3>Repository Name 2</h3>
+      <p>Repository description goes here.</p>
+      <p class="lang">Python</p>
+    </div>
+    <div class="repo">
+      <h3>Repository Name 3</h3>
+      <p>Repository description goes here.</p>
+      <p class="lang">Java</p>
+    </div>
+  </div>
+</body>
+</html>
